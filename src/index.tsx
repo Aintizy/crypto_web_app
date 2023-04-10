@@ -3,19 +3,14 @@ import { createRoot } from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 
 import "./assets/sass/main.scss";
+import MainLayout from "./layout/main__layout";
 
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <h1>Hello world</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-      perferendis corrupti odit, provident maxime laborum dolores. Voluptatem
-      officia a tenetur qui blanditiis, minus porro eaque culpa voluptates nisi
-      quos recusandae!
-    </p>
+    <MainLayout />
   </React.StrictMode>
 );
 
